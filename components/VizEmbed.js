@@ -1,5 +1,7 @@
+import styles from '../styles/components/vizembed.module.scss'
+
 export default ({ url }) => {
   return (
-    <iframe src={url}></iframe>
+    <iframe className={styles.viz} src={url}></iframe>
   )
 }
