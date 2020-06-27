@@ -1,7 +1,11 @@
 export default ({ children }) => {
   return (
     <>
-      {children}
+      <div className="jumbotron">
+        <div className="container">
+          {children}
+        </div>
+      </div>
     </>
   )
 }
